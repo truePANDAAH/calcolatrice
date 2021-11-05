@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font:bold 14px Aria,sans-serif;
+}
+html {
+    height: 100%;
+    background: white;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    background-size: cover;
+}
+#calculator {
+    width: 325px;
+    height: 300px;
+    margin: 100px auto;
+    padding: 20px 20px 9PX;
+    background: #9dd2ea;
+    background: linear-gradient(#d4d8da, #999d9e);
+    border-radius: 3px;
+    /*  box shadows 3D effects */
+    box-shadow: 0px 4px #000000, 0px 10px 15px rgba(0,0,0,0.2);
+}
+
+#clear {
+    
+}
+
+#screen {
+    float: left;
+
+    height: 40px;
+    width: 212px;
+    padding: 0 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    /* shadow on the screen t*/
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+    font-size: 17px;
+    line-height: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.603);
+    text-align: right;
+    letter-spacing: 1px;
+    position: relative;
+    left: -80px;
+}
+
+
+.keys, .top {
+    overflow: hidden;
+}
+.keys, .top {
+    overflow: hidden;
+}
+
+/*  css on  keys */
+.keys span, #clear {
+    float: left;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    width: 66px;
+    height: 36px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 7px 11px 0;
+    color: rgb(43, 43, 43);
+    line-height: 36px;
+    text-align: center;
+    user-select: none;
+    transition: all 0.2s ease;
+}
+.keys span.operator {
+    background: #FFF0F5;
+    margin-right: 0; 
+}
+
+#add {
+     position: relative;
+    top: 184px;
+    left: -218px; 
+}
+#minus {
+    position: relative;
+    top: 134px;
+    left: -145px;
+}
+.keys span.eval {
+    background: #da7972;
+    box-shadow: 0px 4px #eb5959;
+    color: #1f1d1d;
+    position: relative;
+    left: 75px;
+    top: -135px;
+    height: 120px;
+}
+.point{
+    position: relative;
+    left: 145px;
+}
+#zero{
+    position: relative;
+    left: 75px;
+}
+.cbtn{
+    position: relative;
+    left: 220px;
+    top: 40px;
+}
+#X {
+    position: relative;
+    left: -71px;
+    top: 39px;
+}
+#div {
+    position: relative;
+    left: 0px;
+    top: 86px;
+}
+
+#clear {
+    background: #ff9fa8;
+    box-shadow: 0px 4px #ff7c87;
+    color: white;
+}
+
+/*  hover effects */
+.keys span:hover {
+    background: #99ee71;
+    box-shadow: 0px 4px #63d354;
+    color: white;
+}
+
+.keys span.eval:hover {
+    background: #69ecba;
+    box-shadow: 0px 4px #63ddf3;
+    color: #ffffff;
+}
+
+.keys span.eval:active {
+    box-shadow: 0px 0px #46d459;
+    
+}
+
+/* Clear Button */
+#clear {
+    background: #ff9fa8;
+    box-shadow: 0px 4px #ff7c87;
+    color: white;
+}
+
+#clear:hover {
+    background: #f68991;
+    box-shadow: 0px 4px #d3545d;
+    color: white;
+}
+
+.keys span:active {
+    box-shadow: 0px 0px #54d3cd;
+}
+    #clear:active {
+    
+    box-shadow: 0px 0px #d3545d;
+}
+
+.keys span.eval:active {
+    box-shadow: 0px 0px #4fd861;
+    
+/* Other Buttons */
+.keys span:hover {
+    background-color: #9c89f6;
+    box-shadow: 0px 4px #6b54d3;
+    color: white;
+}
+
+
+.keys span:active {
+    box-shadow: 0px 0px #6b54d3;
+    top: 4px;
+    box-shadow: 0px 0px #d3545d;
+} 
